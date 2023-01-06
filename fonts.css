@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Caption';
+    src: url('https://static.tumblr.com/hygeayf/EInr79wmh/antiquesuite.woff') format('Woff');
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Project-Summary';
+    src: url('https://static.tumblr.com/hygeayf/cWfrhg8e0/931b32d7-eb98-43bc-8135-d6fe81a7c8b9.otf') format('OpenType');
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'About';
+    src: url('https://static.tumblr.com/hygeayf/cWfrhg8e0/931b32d7-eb98-43bc-8135-d6fe81a7c8b9.otf') format('OpenType');
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'serifada';
+    src: url('https://static.tumblr.com/hygeayf/z5Prhg7sz/librebaskerville-regular.ttf.woff') format('woff');
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Description';
+    src: url('https://static.tumblr.com/hygeayf/z5Prhg7sz/librebaskerville-regular.ttf.woff') format('woff');
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+    font-weight: 300;
+}

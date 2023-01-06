@@ -1,0 +1,25 @@
+#crosshair-h {
+    width: 100vw;
+    height: 1px;
+}
+
+#crosshair-v {
+    width: 1px;
+    height: 100vh;
+}
+
+/* @media (hover: none) {
+    .hair {
+        display: none;
+    }
+} */
+
+.hair {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 997;
+    pointer-events: none;
+    background-color: #fff;
+    mix-blend-mode: exclusion;
+}
