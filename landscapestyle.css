@@ -28,7 +28,7 @@ body {
     height: 100vh;
     display: flex;
     flex-flow: column nowrap;
-    /* cursor: none; */
+    cursor: none;
     /* background-color: darkcyan; */
 }
 
@@ -151,7 +151,7 @@ header.pane {
     height: 90vh;
     display: flex;
     flex-flow: row nowrap;
-    overflow: scroll;
+    overflow-x: hidden;
     align-items: center;
 }
 
@@ -162,7 +162,12 @@ header.pane {
     height: 90vh;
     flex: 0 0 auto;
     align-items: center;
+    z-index: 10;
     /* justify-content: center; */
+}
+
+.piece:hover {
+    cursor: ew-resize;
 }
 
 .piece-header {
