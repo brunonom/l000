@@ -53,31 +53,31 @@ header.pane {
     display: flex;
     flex-flow: row nowrap;
     align-items: baseline;
-    padding: 1.9vh;
+    padding: min(1.9vh, 1.9vw);
     font-family: 'Description';
+    font-size: min(2.8vh, 2.8vw);
 }
 
 .navitem {
-    padding: 0.9vh;
+    padding: min(0.9vh, 0.9vw);
 }
 
 .about-summary {
     display: block;
-    padding-right: 1.5vh;
+    padding-right: min(1.5vh, 1.5vw);
     cursor: pointer;
     font-family: "Project-summary";
-    font-size: 1.7vw;
     letter-spacing: 0;
 }
 
 .piece-about1 {
-    margin-left: 10vh;
-    margin-right: 5vh;
+    padding-left: min(10vh, 10vw);
+    padding-right: min(5vh, 5vw);
     font-family: 'Description';
-    font-size: small;
-    letter-spacing: .05vh;
+    font-size: min(1.7vh, 1.7vw);
+    letter-spacing: min(0.05vh, 0.05vw);
     line-height: 150%;
-    text-indent: 3vh;
+    /* text-indent: 3vh; */
 }
 
 .navlink {
@@ -86,7 +86,6 @@ header.pane {
     background-color: hsla(0, 0%, 96.9%, .15);
     color: #000;
     cursor: ne-resize;
-    font-size: 1.7vh;
 }
 
 .navlink:hover {
@@ -96,11 +95,11 @@ header.pane {
 .selectedworks {
     width: 100vw;
     font-family: 'Serifada';
-    font-size: 8vh;
+    font-size: min(8vh, 8vw);
     transform: scale(.8, 1);
-    letter-spacing: -0.5vh;
+    letter-spacing: max(-0.5vh, -0.5vw);
     text-align: center;
-    padding: 1vh;
+    padding: min(1vh, 1vw);
     pointer-events: none;
 }
 
@@ -112,11 +111,13 @@ header.pane {
     /* justify-content: left; */
     /* align-items: center; */
     display: block;
-    padding: 7vh 2vh;
+    padding-top: min(7vh, 7vw);
+    padding-bottom: min(7vh, 7vw);
+    padding-left: min(2vh, 2vw);
     cursor: pointer;
     font-family: 'Project-Summary';
-    font-size: 23vh;
-    letter-spacing: -1.5vh;
+    font-size: min(20vh, 20vw);
+    letter-spacing: max(-1.5vh, -1.5vw);
     line-height: 75%;
 }
 
@@ -126,24 +127,27 @@ header.pane {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+    justify-content: space-evenly;
     pointer-events: none;
-    padding: 3vh;
+    padding: min(3vh, 3vw);
 }
 
 .project-info-name {
     flex: 10 1 auto;
     font-family: 'Serifada';
-    font-size: 6vh;
-    transform: scale(80%, 1) translate(-10%, 0);
-    text-align: left;
+    font-size: min(6vh, 6vw);
+    transform: scale(80%, 1);
+    padding: min(1.7vh, 1.7vw);
 }
 
 .project-info-country,
 .project-info-year {
     flex: 1 1 auto;
     font-family: 'Description';
-    letter-spacing: .05vh;
+    font-size: min(4vh, 4vw);
+    letter-spacing: min(0.05vh, 0.05vw);
     text-align: right;
+    padding: min(1.7vh, 1.7vw);
 }
 
 .pieces {
@@ -162,7 +166,7 @@ header.pane {
     height: 90vh;
     flex: 0 0 auto;
     align-items: center;
-    z-index: 10;
+    /* z-index: 10; */
     /* justify-content: center; */
 }
 
@@ -212,10 +216,10 @@ header.pane {
     /* text-indent: 0px; */
     /* flex: 0 0 auto; */
     /* min-width: 0; */
-    padding: 2vh;
+    padding: min(2vh, 2vw);
     /* font-stretch: expanded !important; */
     /* line-height: 120%; */
-    /* font-size: small; */
+    font-size: min(1.8vh, 1.8vw);
     /* letter-spacing: .05vh; */
 }
 
