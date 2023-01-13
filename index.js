@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", e => {
         summary.addEventListener("click", () => {
             setTimeout(() => {
                 summary.nextElementSibling.scrollIntoView({behavior: "smooth", block: "center", inline: "center"});
-            }, 150);
+            }, 50);
         });
     });
 
